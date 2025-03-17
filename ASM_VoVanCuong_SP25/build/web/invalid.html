@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Failed</title>
+        <style>
+            /* Reset mặc định */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, sans-serif;
+            }
+
+            /* Căn giữa trang */
+            body {
+                background-color: #f8d7da; /* Màu nền đỏ nhạt */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            /* Khung thông báo */
+            .container {
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+                text-align: center;
+                width: 350px;
+            }
+
+            /* Tiêu đề */
+            h1 {
+                color: #721c24; /* Màu đỏ đậm */
+                margin-bottom: 10px;
+            }
+
+            /* Đoạn văn bản */
+            p {
+                color: #721c24;
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+
+            /* Nút quay lại */
+            .btn {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #dc3545; /* Màu đỏ */
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+
+            .btn:hover {
+                background-color: #c82333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>LOGIN FAIL</h1>
+            <p>Username or Password is incorrect.</p>
+            <a href="login.jsp" class="btn">Return to Login</a>
+        </div>
+    </body>
+</html>
